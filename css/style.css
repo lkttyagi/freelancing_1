@@ -51,7 +51,7 @@ body {
 	HEADER
 - - - - - - - - - - - - - - - - - - - - */
 header {
-    background:black;
+    background:white;
     padding-bottom:10px
 }
 
@@ -124,7 +124,8 @@ header #logo .inner {
     width:100%;
     height:60px;
     border-top:solid 1px #292929;
-    border-bottom:solid 1px #292929
+    border-bottom:solid 1px #292929;
+    background:#4e4eff;
 }
 
 #mainmenu {
@@ -136,6 +137,7 @@ header #logo .inner {
     text-align:left;
     text-transform:uppercase;
     font-size:13px
+    
 }
 
 #mainmenu a {
@@ -151,7 +153,8 @@ header #logo .inner {
     float:right;
     margin:0;
     padding:0;
-    height:30px
+    height:30px;
+   
 }
 
 #mainmenu li {
