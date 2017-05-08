@@ -1,0 +1,113 @@
+/* CSS Document */
+body{ margin:0; padding:0;}
+.skdslider{
+ height: 700px;
+ position: relative;
+}
+.skdslider ul.slides{ margin:0; padding:0; list-style-type:none;}
+
+.skdslider ul.slides li
+{
+   height: 700px;
+   left: 0;
+   position: absolute;
+   top: 0;
+   display: none;
+   width:100%;
+}
+.skdslider ul.slides li img{
+    width: 100%;
+	height:100%;
+	border:0;
+}
+
+.skdslider .slide-navs {
+    bottom: 20px;
+    left: 50%;
+    position: absolute;
+	list-style-type: none;
+	 margin: 0;
+    padding: 0;
+}
+
+
+.skdslider .slide-navs li {
+    float: left;
+	height:12px;
+	width:12px;
+	margin-right:4px;
+	cursor:pointer;
+}
+.skdslider .slide-navs li.current-slide {
+  background: url(image/slide-bg-active.html) no-repeat scroll 0 0 transparent;
+}
+.skdslider .slide-desc {
+  
+    left: 0;
+    position: absolute;
+    top: 260px;
+	border-bottom: 2px solid #FFFFFF;
+    border-top: 2px solid #FFFFFF;
+	color: #FFFFFF;
+    font: italic 30px/50px Georgia,"Times New Roman",Times,serif;
+	padding: 20px 0;
+    text-align: center;
+    text-shadow: 1px 1px 1px #000000;
+    text-transform: uppercase;
+    width: 750px; left:50%; margin-left:-375px;
+}
+    
+
+.skdslider a.prev{
+    background: url(images/left.png) no-repeat scroll 0 0 transparent;
+	width:64px;
+	height:64px;
+	display:block;
+	cursor:pointer;
+	position:absolute;
+	top:44%;
+	left:2%;
+	
+}
+
+.skdslider a.next{
+    background: url(images/right.png) no-repeat scroll 0 0 transparent;
+	width:64px;
+	height:64px;
+	display:block;
+	cursor:pointer;
+	position:absolute;
+	top:44%;
+	right:2%;
+	
+}
+.skdslider a.prev:hover{
+  
+}
+.skdslider a.next:hover{
+  
+}
+
+.skdslider a.play{
+    background: url(images/play.png) no-repeat scroll center center #e1e1e1;
+	width:35px;
+	height:35px;
+	display:none;
+	cursor:pointer;
+	position:absolute;
+	top:44%;
+	left:48%;
+	
+}
+
+.skdslider a.pause{
+    background: url(image/pause.html) no-repeat scroll center center #e1e1e1;
+	width:35px;
+	height:35px;
+	display:none;
+	cursor:pointer;
+	position:absolute;
+	top:44%;
+	left:48%;
+	
+}
